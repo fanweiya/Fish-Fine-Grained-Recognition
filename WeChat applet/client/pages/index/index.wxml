@@ -1,0 +1,15 @@
+<!--pages/index/index.wxml-->
+<view class="image_viwe_size">
+<image src="{{image_src}}" style="width: 200px; height: 200px;"></image>
+</view>
+<view class='button_viwe_size'>
+<button type="primary" bindtap="UploadImage">上传图片</button>
+</view>
+<view class='progress_view_size'>
+  <progress percent="{{progress}}" show-info />
+  <text class="text_size">上传进度</text>
+</view>
+<view class='text_viwe_size'>
+<text class="text_size">共检测到 {{count}}条鱼</text>
+<text class="text_size">  号 类别：{{class}} 概率：{{prob}}</text>
+</view>
