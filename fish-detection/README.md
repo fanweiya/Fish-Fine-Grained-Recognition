@@ -17,7 +17,7 @@ The [Open Images Dataset](https://storage.googleapis.com/openimages/web/index.ht
 
 Download all the images along with the annotations.
 
-Clone this repository with `git clone https://github.com/kwea123/fish_detection.git`.
+Clone this repository with `git clone https://github.com/fanweiya/Fish-Fine-Grained-Recognition`.
 
 # Setup the environment
 
